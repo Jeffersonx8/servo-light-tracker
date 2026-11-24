@@ -1,6 +1,8 @@
 # servo-light-tracker
 
-A quick and simple project, the goal is to get the servo to turn and follow a source of light using two photoresistors. 
+A quick and simple project, the goal is to get the servo to turn and follow a source of light using two photoresistors. Code is explained below
+
+![Servo Light Tracker](media/IMG_2404-ezgif.com-optimize.gif)
 
 - I placed a photoresistor at each end of the breadboard with the a servo in the middle to detect the light.
 - Next is to read the values of the two photoresistors and take the normalized difference so I could compare the two readings regardless of the light intensity. The equation is below:
