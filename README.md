@@ -5,7 +5,7 @@ A quick and simple project, the goal is to get the servo to turn and follow a so
 - I placed a photoresistor at each end of the breadboard with the a servo in the middle to detect the light.
 - Next is to read the values of the two resistors and take the normalized difference so I could get an accurate reading no matter how bright the light is. The equation is below
 
-$$Difference = /frac{(Left - Right)}{(Left + Right)}$$
+$$Difference = \frac{(Left - Right)}{(Left + Right)}$$
 
 - 
 - Then I map it into degrees using this equation:
